@@ -46,7 +46,7 @@ H - Clearing House
 I - ISDA/FpML    
     */
     public final static String ID_SOURCE_INTERNAL = "CPTA";
-    public final static String ID_SOURCE_RIC = "RIC";
+    public final static String ID_SOURCE_RIC = "Ric";
     public final static String ID_SOURCE_SEDOL = "SEDOL";
     public final static String ID_SOURCE_ISIN = "ISIN";
     public final static String ID_SOURCE_TICKER = "SYMBOL";
