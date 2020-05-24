@@ -54,6 +54,7 @@ I - ISDA/FpML
     public final static String ID_SOURCE_CUSIP = "CUSIP";
     public final static String ID_SOURCE_NAME = "NAME";
     public final static String ID_SOURCE_QUIK = "QUIK";
+    public final static String ID_SOURCE_CHAIN_RIC = "ChainRIC";
 
     public static final String ID_FIELD_NAME = "Identifier";
     public static final String ID_SOURCE_FIELD_NAME = "IdentifierType";
