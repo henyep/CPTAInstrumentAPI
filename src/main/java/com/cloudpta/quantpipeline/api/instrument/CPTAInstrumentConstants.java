@@ -25,38 +25,5 @@ package com.cloudpta.quantpipeline.api.instrument;
  */
 public interface CPTAInstrumentConstants
 {
-    /*
-1 - CUSIP
-2 - SEDOL
-3 - QUIK
-4 - ISIN
-5 - RIC
-6 - ISO Curr
-7 - ISO Country
-8 - Exch Symb
-9 - CTA
-A - Blmbrg
-B - Wertpapier
-C - Dutch
-D - Valoren
-E - Sicovam
-F - Belgian
-G - Common
-H - Clearing House
-I - ISDA/FpML    
-    */
-    public final static String ID_SOURCE_INTERNAL = "CPTA";
-    public final static String ID_SOURCE_RIC = "Ric";
-    public final static String ID_SOURCE_SEDOL = "SEDOL";
-    public final static String ID_SOURCE_ISIN = "ISIN";
-    public final static String ID_SOURCE_TICKER = "SYMBOL";
-    public final static String ID_SOURCE_BLOOMBERG = "BBG";
-    public final static String ID_SOURCE_CUSIP = "CUSIP";
-    public final static String ID_SOURCE_NAME = "NAME";
-    public final static String ID_SOURCE_QUIK = "QUIK";
-    public final static String ID_SOURCE_CHAIN_RIC = "ChainRIC";
-
-    public static final String ID_FIELD_NAME = "Identifier";
-    public static final String ID_SOURCE_FIELD_NAME = "IdentifierType";
     
 }
