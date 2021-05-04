@@ -45,6 +45,51 @@ public class CPTAInstrumentSymbology
         idSource = IDSource;
     }
 
+    @Override
+    public boolean equals(Object other)
+    {
+        // Assume isnt
+        boolean isEqual = false;
+
+        try
+        {
+            // cast to symbology
+            CPTAInstrumentSymbology otherSymbology = (CPTAInstrumentSymbology)other;
+            // compare symbols
+            if(true == id.equals(otherSymbology.id))
+            {
+                // compare ids
+                // either both ids are null
+                boolean bothSourcesNull = (null == idSource) && (null == otherSymbology.idSource);
+                if(true == bothSourcesNull)
+                {
+                    isEqual = true;
+                } 
+                else if(true == idSource.equals(otherSymbology.idSource))
+                {
+                    isEqual = true;
+                }
+            }
+        }
+        catch(Exception E)
+        {
+            // do nothing
+        }
+
+        return isEqual;
+    }
+
+    public static void main(String[] args)
+    {
+        CPTAInstrumentSymbology s1 = new CPTAInstrumentSymbology();
+        s1.setID("test");
+        CPTAInstrumentSymbology s2 = new CPTAInstrumentSymbology();
+        s2.setID("test");
+        if(true == s2.equals(s1))
+        {
+            int i = 0;
+        }
+    }
     protected String id;
-    protected String idSource;
+    protected String idSource = null;
 }
